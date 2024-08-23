@@ -1,15 +1,11 @@
 import React from 'react';
-import Header from './BaiTapLayoutComponent/Header';
-import Footer from './BaiTapLayoutComponent/Footer';
-import Body from './BaiTapLayoutComponent/Body/Body';
+import BaiTapThucHanhLayout from './BaiTapLayoutComponent/BaiTapThucHanhLayout';
 
 function App() {
 
   return (
     <div>
-      <Header />
-      <Body />
-      <Footer />
+      <BaiTapThucHanhLayout />
     </div>
   );
 }
